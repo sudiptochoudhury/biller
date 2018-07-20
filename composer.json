@@ -1,0 +1,36 @@
+{
+  "name": "sudiptochoudhury/biller",
+  "license": "MIT",
+  "description": "Laravel Biller - a new way to Laravel Cashier",
+  "authors": [
+    {
+      "name": "Sudipto Choudhury",
+      "email": "contact@addiedigital.com"
+    }
+  ],
+  "type": "package",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "SudiptoChoudhury\\Biller": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "src/tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    },
+    "laravel": {
+      "providers": [
+        "SudiptoChoudhury\\Biller\\ServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
